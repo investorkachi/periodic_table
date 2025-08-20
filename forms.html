@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML Form Creation</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="txt">Text</label>
+            <input type="text" id="txt" name="txt">
+            <br>
+            <br>
+            <label for="pword">Password</label>
+            <input type="password" id="pword" name="pword">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="num">Number</label>
+            <input type="number" id="num" name="num">
+            <br>
+            <br>
+            <label for="numbs">Telephone</label>
+            <input type="number" id="numbs" name="numbs">
+            <br>
+            <br>
+            <label for="web">Website</label>
+            <input type="text" id="web" name="web">
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Dates & time</legend>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <br>
+            <label for="dtl">Datetime-local</label>
+            <input type="datetime-local" id="dtl" name="dtl">
+            <br>
+            <br>
+            <label for="mth">Month</label>
+            <input type="month" id="mth" name="mth">
+            <br>
+            <br>
+            <label for="wk">Week</label>
+            <input type="week" id="wk" name="wk">
+            <br>
+            <br>
+            <label for="tm">Time</label>
+            <input type="time" id="tm" name="tm">
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Choices</legend>
+            <p>Gender:</p>
+            <label for="m">Male</label>
+            <input type="radio" id="m" name="gender">
+            <label for="f">Female</label>
+            <input type="radio" id="f" name="gender">
+            <br>
+            <br>
+            <p>Skills (select all that apply)</p>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="js">Javascript</label>
+            <input type="checkbox" id="js" name="skills" value="Javascript">
+            <br>
+            <br>
+            <label for="color">Favorite Color</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <br>
+            <label for="range">Skill Level (0-100)</label>
+            <input type="range" id="range" name="range" min="0" max="100">
+            <br>
+            <br>
+            <label for="country">Select Country</label>
+            <select name="country" id="select">
+                <option value="">--Choose--</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="germany">Germany</option>
+                <option value="usa">USA</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Uploads & Music</legend>
+            <label for="file">Upload File</label>
+            <input type="file" id="file" name="file">
+            <br>
+            <br>
+            <label for="search">Search</label>
+            <input type="search" id="search" name="search">
+            <br>
+            <br>
+            <label for="hid">Hidden Input</label>
+            <input type="hidden" id="hid" name="hidden">
+            <br>
+            <br>
+            <label for="textarea">Message</label>
+            <br>
+            <textarea name="message" id="textarea"></textarea>
+        </fieldset>
+    </form>    
+</body>
+</html>
